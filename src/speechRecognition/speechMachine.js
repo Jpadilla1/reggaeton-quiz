@@ -18,7 +18,6 @@ export const speechMachine = Machine(
               recognition.lang = "es-PR";
               callback({ type: "success", recognition });
             } catch (e) {
-              console.error(e);
               callback("failure");
             }
           }

@@ -2,10 +2,9 @@ import { useEffect } from "react";
 import { useMachine } from "@xstate/react";
 import { speechMachine } from "./speechMachine";
 
+// https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API/Using_the_Web_Speech_API
 export const useSpeechToText = () => {
   const [current, send] = useMachine(speechMachine);
-
-    console.log(current.actions);
 
   useEffect(() => {
     if (
