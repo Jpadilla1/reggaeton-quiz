@@ -58,5 +58,11 @@ export const tracks = [
     track: "3sfJP7ZoNwFpAxnjlzXwVL",
     artist: "Ivy Queen",
     releaseYear: "2003"
+  },
+  {
+    name: "Safaera",
+    track: "2DEZmgHKAvm41k4J3R2E9Y",
+    artist: "Bad Bunny",
+    releaseYear: "2020"
   }
 ];

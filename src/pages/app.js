@@ -83,7 +83,9 @@ export const App = () => {
       const options = {
         keys: ['name', 'artist'],
       }
-      const fuse = new Fuse(tracks, options)
+      const fuse = new Fuse(tracks, options);
+
+      console.log(transcript);
 
       const result = fuse.search(transcript);
 
